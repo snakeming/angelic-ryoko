@@ -1,0 +1,812 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf8">
+
+<style type="text/css">
+
+<!--
+.A{font-family:osaka,verdana,ms p gothic;font-size:9px;color:#333333;border-top:1px solid #333333;border-bottom:1px solid black;border-left:1px solid #333333;border-right:1px solid #333333;background-color:#cccccc}
+.B{font-family:osaka,verdana,ms p gothic;font-size:9px;color:#000000;border-top:0px solid #000000;border-bottom:0px solid black;border-left:0px solid #000000;border-right:0px solid #000000;background-color:#cccccc}
+.C{font-family:osaka,verdana,ms p gothic;font-size:9px;color:#333333;border-top:0px solid #333333;border-bottom:0px solid black;border-left:0px solid #333333;border-right:0px solid #333333;background-color:#cccccc}
+input,textarea
+{
+	SCROLLBAR-FACE-COLOR: #EFEFEF;
+	SCROLLBAR-HIGHLIGHT-COLOR: #EFEFEF;
+	SCROLLBAR-SHADOW-COLOR: #cccccc;
+	SCROLLBAR-3DLIGHT-COLOR: #cccccc;
+	SCROLLBAR-ARROW-COLOR: #cccccc;
+	SCROLLBAR-TRACK-COLOR: #cccccc;
+	SCROLLBAR-DARKSHADOW-COLOR: #cccccc;
+	SCROLLBAR-BASE-COLOR: #cccccc;
+
+border-top: 1px solid #3C3C3C;
+border-left: 1px solid #3C3C3C;
+border-bottom: 1px solid #3C3C3C;
+border-right: 1px solid #3C3C3C;
+font-size:9px;
+color:#333333;
+background-color:#cccccc;
+font-family : 'Verdana';
+line-height:10px; }
+
+select { color: #999999; font-family: VERDANA; font-size: 7pt; background-color: #666666;}
+.check {border-width: 0px;}
+        
+.radio {border-width: 0px;}
+
+a:link    {font-size: 10px;color:black; text-decoration:none;}
+a:visited {font-size: 10px;color:black; text-decoration:none;}
+BODY, TD{
+ 
+}
+-->
+</style>
+<style type="text/css">
+<!--
+A:HOVER{
+color : #dcdcdc;
+
+}
+.bgf {  background-attachment: fixed; background-image:   url(/web/20030721205010im_/http://server2046.virtualave.net:80/jay0917/rh/imgbbs/bg.gif); background-repeat: repeat}
+-->
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head>
+
+<body bgcolor="#333333" leftmargin="5" topmargin="5" class="bgf">
+<form method="post" action="apeboard_plus.cgi">
+  <div align="left">
+    <input type="hidden" name="command" value="write">
+    <a href="apeboardp_mt.cgi"><img src="img/tdot.gif" width="6" height="6" border="0"></a> 
+    <a href="apeboardp_mt.cgi"> </a> </div>
+  <table width="150" border="0" align="center" cellpadding="1" cellspacing="0" style="filter:Alpha(opacity=86)">
+    <tr> 
+      <td width="178"> 
+        <table align="right" cellpadding="2" cellspacing="0">
+          <tr> 
+            <td> <div align="left"><font color="#000000" size="-2" face="Arial, Helvetica, sans-serif">Name 
+                </font></div></td>
+            <td width="63"><font color="#666666" size="-2" face="Arial, Helvetica, sans-serif"> 
+              <input type="text" name="name" value="" size="20" maxlength="60" class="A">
+              </font></td>
+          </tr>
+          <tr> 
+            <td> <div align="left"><font color="#000000" size="-2" face="Arial, Helvetica, sans-serif">URL 
+                </font></div></td>
+            <td><font color="#CCCCCC" size="-2" face="Arial, Helvetica, sans-serif"> 
+              <input name="url" value="http://" type="text" class="A" value="http://" size="20" maxlength="60">
+              </font></td>
+          </tr>
+          <tr> 
+            <td> <div align="left"><font color="#000000" size="-2" face="Arial, Helvetica, sans-serif">Mail 
+                </font></div></td>
+            <td><font color="#CCCCCC" size="-2" face="Arial, Helvetica, sans-serif"> 
+              <input type="text" name="mail" value="" size="20" maxlength="50" class="A">
+              </font></td>
+          </tr>
+          <tr> 
+            <td colspan="2"> <div align="right"><font color="#333333"><font color="#000000"></font></font> 
+              </div>
+              <textarea name="message" cols="25" rows="4" wrap="VIRTUAL"></textarea> 
+            </td>
+          </tr>
+        </table>
+        <div align="right"></div>
+      </td>
+    </tr>
+    <tr> 
+      <td><div align="right"> 
+          <table width="100%" cellpadding="3" cellspacing="0">
+            <tr> 
+              <td valign="top">&nbsp; </td>
+              <td valign="top">
+<div align="right">
+                  <input type="submit" name="submit" value="Send" class="B">
+                </div>
+                </td>
+            </tr>
+          </table>
+          
+        </div>
+      </td>
+    </tr>
+  </table>
+  <br>
+</form>
+
+<form method="post" action="apeboard_plus.cgi">
+  
+  <table width="150" border="0" align="center" cellpadding="0" cellspacing="0" style="filter:Alpha(opacity=83)">
+    <tr> 
+      <td> 
+        <table width="100%" cellpadding="0" cellspacing="2" bgcolor="#AAAAAA">
+          <tr> 
+            <td colspan="2" bgcolor="#666666"><table width="100%" cellpadding="0" cellspacing="0">
+                <tr> 
+                  <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">&gt;</font></td>
+                  <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">nic</font><font color="#134857" size="-2" face="Arial, Helvetica, sans-serif">&nbsp;
+                    </font> </td>
+                  <td align="right"><table cellspacing="0" cellpadding="0">
+                      <tr> 
+                        <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">[ 
+                          xxx
+                          ]</font></td>
+                        <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">[ 
+                          xxx
+                          ]<img src="/web/20030721205010im_/http://server2046.virtualave.net:80/jay0917/rh/imgbbs/tdot.gif" width="4" height="4"></font></td>
+                      </tr>
+                    </table></td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr align="center" valign="top"> 
+            <td colspan="2"> <table width="90%" cellpadding="5" cellspacing="0">
+                <tr> 
+                  <td width="113" height="29" align="left" valign="top"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">angel呢排都搵唔到你喎<br><br>你好唔得閒??<br><br>仲末整好個新網<br><br>+油啊^_-
+                    </font></td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr> 
+            <td width="68" nowrap> 
+              <div align="left"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">07/20
+                
+                </font> </div>
+            </td>
+            <td>
+              <div align="right"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">[<a href="apeboard_plus.cgi?command=viewres&amp;target=77">RES</a>]&nbsp;</font></div>
+            </td>
+          </tr>
+        </table>
+        <!--res-->
+      </td>
+    </tr>
+  </table>
+  <br>
+  
+  <table width="150" border="0" align="center" cellpadding="0" cellspacing="0" style="filter:Alpha(opacity=83)">
+    <tr> 
+      <td> 
+        <table width="100%" cellpadding="0" cellspacing="2" bgcolor="#AAAAAA">
+          <tr> 
+            <td colspan="2" bgcolor="#666666"><table width="100%" cellpadding="0" cellspacing="0">
+                <tr> 
+                  <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">&gt;</font></td>
+                  <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">hind</font><font color="#134857" size="-2" face="Arial, Helvetica, sans-serif">&nbsp;
+                    </font> </td>
+                  <td align="right"><table cellspacing="0" cellpadding="0">
+                      <tr> 
+                        <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">[ 
+                          <a href="https://web.archive.org/web/20030721205010/mailto:cininaru@msn.com">Mail</a>
+                          ]</font></td>
+                        <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">[ 
+                          xxx
+                          ]<img src="/web/20030721205010im_/http://server2046.virtualave.net:80/jay0917/rh/imgbbs/tdot.gif" width="4" height="4"></font></td>
+                      </tr>
+                    </table></td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr align="center" valign="top"> 
+            <td colspan="2"> <table width="90%" cellpadding="5" cellspacing="0">
+                <tr> 
+                  <td width="113" height="29" align="left" valign="top"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">````  hppy birthday ````
+                    </font></td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr> 
+            <td width="68" nowrap> 
+              <div align="left"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">07/19
+                
+                </font> </div>
+            </td>
+            <td>
+              <div align="right"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">[<a href="apeboard_plus.cgi?command=viewres&amp;target=76">RES</a>]&nbsp;</font></div>
+            </td>
+          </tr>
+        </table>
+        <!--res-->
+      </td>
+    </tr>
+  </table>
+  <br>
+  
+  <table width="150" border="0" align="center" cellpadding="0" cellspacing="0" style="filter:Alpha(opacity=83)">
+    <tr> 
+      <td> 
+        <table width="100%" cellpadding="0" cellspacing="2" bgcolor="#AAAAAA">
+          <tr> 
+            <td colspan="2" bgcolor="#666666"><table width="100%" cellpadding="0" cellspacing="0">
+                <tr> 
+                  <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">&gt;</font></td>
+                  <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">XXJASON</font><font color="#134857" size="-2" face="Arial, Helvetica, sans-serif">&nbsp;
+                    </font> </td>
+                  <td align="right"><table cellspacing="0" cellpadding="0">
+                      <tr> 
+                        <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">[ 
+                          xxx
+                          ]</font></td>
+                        <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">[ 
+                          xxx
+                          ]<img src="/web/20030721205010im_/http://server2046.virtualave.net:80/jay0917/rh/imgbbs/tdot.gif" width="4" height="4"></font></td>
+                      </tr>
+                    </table></td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr align="center" valign="top"> 
+            <td colspan="2"> <table width="90%" cellpadding="5" cellspacing="0">
+                <tr> 
+                  <td width="113" height="29" align="left" valign="top"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">生日生日快樂喔&gt;"&lt;<br>RYOKO^0^"
+                    </font></td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr> 
+            <td width="68" nowrap> 
+              <div align="left"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">07/18
+                
+                </font> </div>
+            </td>
+            <td>
+              <div align="right"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">[<a href="apeboard_plus.cgi?command=viewres&amp;target=75">RES</a>]&nbsp;</font></div>
+            </td>
+          </tr>
+        </table>
+        <!--res-->
+      </td>
+    </tr>
+  </table>
+  <br>
+  
+  <table width="150" border="0" align="center" cellpadding="0" cellspacing="0" style="filter:Alpha(opacity=83)">
+    <tr> 
+      <td> 
+        <table width="100%" cellpadding="0" cellspacing="2" bgcolor="#AAAAAA">
+          <tr> 
+            <td colspan="2" bgcolor="#666666"><table width="100%" cellpadding="0" cellspacing="0">
+                <tr> 
+                  <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">&gt;</font></td>
+                  <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">kenxon</font><font color="#134857" size="-2" face="Arial, Helvetica, sans-serif">&nbsp;
+                    </font> </td>
+                  <td align="right"><table cellspacing="0" cellpadding="0">
+                      <tr> 
+                        <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">[ 
+                          xxx
+                          ]</font></td>
+                        <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">[ 
+                          xxx
+                          ]<img src="/web/20030721205010im_/http://server2046.virtualave.net:80/jay0917/rh/imgbbs/tdot.gif" width="4" height="4"></font></td>
+                      </tr>
+                    </table></td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr align="center" valign="top"> 
+            <td colspan="2"> <table width="90%" cellpadding="5" cellspacing="0">
+                <tr> 
+                  <td width="113" height="29" align="left" valign="top"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">~~~~~~~~~~HAPPY BIRTHDAY~~~~~
+                    </font></td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr> 
+            <td width="68" nowrap> 
+              <div align="left"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">07/18
+                
+                </font> </div>
+            </td>
+            <td>
+              <div align="right"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">[<a href="apeboard_plus.cgi?command=viewres&amp;target=74">RES</a>]&nbsp;</font></div>
+            </td>
+          </tr>
+        </table>
+        <!--res-->
+      </td>
+    </tr>
+  </table>
+  <br>
+  
+  <table width="150" border="0" align="center" cellpadding="0" cellspacing="0" style="filter:Alpha(opacity=83)">
+    <tr> 
+      <td> 
+        <table width="100%" cellpadding="0" cellspacing="2" bgcolor="#AAAAAA">
+          <tr> 
+            <td colspan="2" bgcolor="#666666"><table width="100%" cellpadding="0" cellspacing="0">
+                <tr> 
+                  <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">&gt;</font></td>
+                  <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">DAVID SUN</font><font color="#134857" size="-2" face="Arial, Helvetica, sans-serif">&nbsp;
+                    </font> </td>
+                  <td align="right"><table cellspacing="0" cellpadding="0">
+                      <tr> 
+                        <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">[ 
+                          <a href="https://web.archive.org/web/20030721205010/mailto:sundavid08@sina.com">Mail</a>
+                          ]</font></td>
+                        <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">[ 
+                          xxx
+                          ]<img src="/web/20030721205010im_/http://server2046.virtualave.net:80/jay0917/rh/imgbbs/tdot.gif" width="4" height="4"></font></td>
+                      </tr>
+                    </table></td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr align="center" valign="top"> 
+            <td colspan="2"> <table width="90%" cellpadding="5" cellspacing="0">
+                <tr> 
+                  <td width="113" height="29" align="left" valign="top"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">怎么都是&amp;#25968;&amp;#30721;呀？
+                    </font></td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr> 
+            <td width="68" nowrap> 
+              <div align="left"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">07/16
+                
+                </font> </div>
+            </td>
+            <td>
+              <div align="right"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">[<a href="apeboard_plus.cgi?command=viewres&amp;target=71">RES</a>]&nbsp;</font></div>
+            </td>
+          </tr>
+        </table>
+        
+        <table width="100%" cellpadding="0" cellspacing="2" bgcolor="#C3C3C3">
+          <tr> 
+            <td colspan="2" bgcolor="#666666"><table width="100%" cellpadding="0" cellspacing="0">
+                <tr> 
+                  <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">&gt;</font></td>
+                  <td> <div align="left"><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">Angel
+                       </font> </div></td>
+                  <td align="right"> <div align="right"></div>
+                    <table cellspacing="0" cellpadding="0">
+                      <tr> 
+                        <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">[ 
+                          <a href="https://web.archive.org/web/20030721205010/mailto:angel@fxhk.com">Mail</a>
+                          ]</font></td>
+                        <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">[ 
+                          <a href="https://web.archive.org/web/20030721205010/http://anymo.com/rh" target="_blank">Web</a>
+                          ]</font></td>
+                      </tr>
+                    </table>
+                    <div align="right"></div></td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr align="center" valign="top"> 
+            <td colspan="2"> <table width="90%" cellpadding="5" cellspacing="0">
+                <tr> 
+                  <td align="left" valign="top"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">Sorry... my BBS does not support "Simple Chinese"<br>But I can guess what did you say~ (^-^)<br>Thanks a lot~
+                    </font></td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr> 
+            <td nowrap> 
+              <div align="left"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">07/18
+                
+                </font> </div>
+            </td>
+            <td><div align="right"></div></td>
+          </tr>
+        </table>
+
+      </td>
+    </tr>
+  </table>
+  <br>
+  
+  <table width="150" border="0" align="center" cellpadding="0" cellspacing="0" style="filter:Alpha(opacity=83)">
+    <tr> 
+      <td> 
+        <table width="100%" cellpadding="0" cellspacing="2" bgcolor="#AAAAAA">
+          <tr> 
+            <td colspan="2" bgcolor="#666666"><table width="100%" cellpadding="0" cellspacing="0">
+                <tr> 
+                  <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">&gt;</font></td>
+                  <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">Angel</font><font color="#134857" size="-2" face="Arial, Helvetica, sans-serif">&nbsp;
+                    </font> </td>
+                  <td align="right"><table cellspacing="0" cellpadding="0">
+                      <tr> 
+                        <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">[ 
+                          <a href="https://web.archive.org/web/20030721205010/mailto:angel@fxhk.com">Mail</a>
+                          ]</font></td>
+                        <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">[ 
+                          <a href="https://web.archive.org/web/20030721205010/http://anymo.com/rh" target="_blank">Web</a>
+                          ]<img src="/web/20030721205010im_/http://server2046.virtualave.net:80/jay0917/rh/imgbbs/tdot.gif" width="4" height="4"></font></td>
+                      </tr>
+                    </table></td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr align="center" valign="top"> 
+            <td colspan="2"> <table width="90%" cellpadding="5" cellspacing="0">
+                <tr> 
+                  <td width="113" height="29" align="left" valign="top"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">Happy Birthday~ 生日快樂~ 希望涼子在未來的日子都會過得開心快樂~ (^__^)
+                    </font></td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr> 
+            <td width="68" nowrap> 
+              <div align="left"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">07/18
+                
+                </font> </div>
+            </td>
+            <td>
+              <div align="right"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">[<a href="apeboard_plus.cgi?command=viewres&amp;target=73">RES</a>]&nbsp;</font></div>
+            </td>
+          </tr>
+        </table>
+        <!--res-->
+      </td>
+    </tr>
+  </table>
+  <br>
+  
+  <table width="150" border="0" align="center" cellpadding="0" cellspacing="0" style="filter:Alpha(opacity=83)">
+    <tr> 
+      <td> 
+        <table width="100%" cellpadding="0" cellspacing="2" bgcolor="#AAAAAA">
+          <tr> 
+            <td colspan="2" bgcolor="#666666"><table width="100%" cellpadding="0" cellspacing="0">
+                <tr> 
+                  <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">&gt;</font></td>
+                  <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">龍</font><font color="#134857" size="-2" face="Arial, Helvetica, sans-serif">&nbsp;
+                    </font> </td>
+                  <td align="right"><table cellspacing="0" cellpadding="0">
+                      <tr> 
+                        <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">[ 
+                          xxx
+                          ]</font></td>
+                        <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">[ 
+                          xxx
+                          ]<img src="/web/20030721205010im_/http://server2046.virtualave.net:80/jay0917/rh/imgbbs/tdot.gif" width="4" height="4"></font></td>
+                      </tr>
+                    </table></td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr align="center" valign="top"> 
+            <td colspan="2"> <table width="90%" cellpadding="5" cellspacing="0">
+                <tr> 
+                  <td width="113" height="29" align="left" valign="top"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">涼子生日快樂!!
+                    </font></td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr> 
+            <td width="68" nowrap> 
+              <div align="left"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">07/18
+                
+                </font> </div>
+            </td>
+            <td>
+              <div align="right"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">[<a href="apeboard_plus.cgi?command=viewres&amp;target=72">RES</a>]&nbsp;</font></div>
+            </td>
+          </tr>
+        </table>
+        <!--res-->
+      </td>
+    </tr>
+  </table>
+  <br>
+  
+  <table width="150" border="0" align="center" cellpadding="0" cellspacing="0" style="filter:Alpha(opacity=83)">
+    <tr> 
+      <td> 
+        <table width="100%" cellpadding="0" cellspacing="2" bgcolor="#AAAAAA">
+          <tr> 
+            <td colspan="2" bgcolor="#666666"><table width="100%" cellpadding="0" cellspacing="0">
+                <tr> 
+                  <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">&gt;</font></td>
+                  <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">David sun</font><font color="#134857" size="-2" face="Arial, Helvetica, sans-serif">&nbsp;
+                    </font> </td>
+                  <td align="right"><table cellspacing="0" cellpadding="0">
+                      <tr> 
+                        <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">[ 
+                          <a href="https://web.archive.org/web/20030721205010/mailto:sundavid08@sina.com">Mail</a>
+                          ]</font></td>
+                        <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">[ 
+                          xxx
+                          ]<img src="/web/20030721205010im_/http://server2046.virtualave.net:80/jay0917/rh/imgbbs/tdot.gif" width="4" height="4"></font></td>
+                      </tr>
+                    </table></td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr align="center" valign="top"> 
+            <td colspan="2"> <table width="90%" cellpadding="5" cellspacing="0">
+                <tr> 
+                  <td width="113" height="29" align="left" valign="top"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">你好，我是你WEB的FAN，我与同&amp;#23681;，我&amp;#26469;自大&amp;#38470;北京，我支持你，&amp;#35831;&amp;#38382;要怎么才能&amp;#20256;&amp;#32473;你WALLPAPER？能&amp;#32473;我&amp;#21457;E-MAIL &amp;#21527;？&amp;#35874;&amp;#35874;！<br>
+                    </font></td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr> 
+            <td width="68" nowrap> 
+              <div align="left"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">07/16
+                
+                </font> </div>
+            </td>
+            <td>
+              <div align="right"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">[<a href="apeboard_plus.cgi?command=viewres&amp;target=70">RES</a>]&nbsp;</font></div>
+            </td>
+          </tr>
+        </table>
+        <!--res-->
+      </td>
+    </tr>
+  </table>
+  <br>
+  
+  <table width="150" border="0" align="center" cellpadding="0" cellspacing="0" style="filter:Alpha(opacity=83)">
+    <tr> 
+      <td> 
+        <table width="100%" cellpadding="0" cellspacing="2" bgcolor="#AAAAAA">
+          <tr> 
+            <td colspan="2" bgcolor="#666666"><table width="100%" cellpadding="0" cellspacing="0">
+                <tr> 
+                  <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">&gt;</font></td>
+                  <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">Psn</font><font color="#134857" size="-2" face="Arial, Helvetica, sans-serif">&nbsp;
+                    </font> </td>
+                  <td align="right"><table cellspacing="0" cellpadding="0">
+                      <tr> 
+                        <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">[ 
+                          <a href="https://web.archive.org/web/20030721205010/mailto:rafael_nt@hotmail.com">Mail</a>
+                          ]</font></td>
+                        <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">[ 
+                          xxx
+                          ]<img src="/web/20030721205010im_/http://server2046.virtualave.net:80/jay0917/rh/imgbbs/tdot.gif" width="4" height="4"></font></td>
+                      </tr>
+                    </table></td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr align="center" valign="top"> 
+            <td colspan="2"> <table width="90%" cellpadding="5" cellspacing="0">
+                <tr> 
+                  <td width="113" height="29" align="left" valign="top"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">New version of anymo.com!!....great
+                    </font></td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr> 
+            <td width="68" nowrap> 
+              <div align="left"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">07/15
+                
+                </font> </div>
+            </td>
+            <td>
+              <div align="right"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">[<a href="apeboard_plus.cgi?command=viewres&amp;target=69">RES</a>]&nbsp;</font></div>
+            </td>
+          </tr>
+        </table>
+        
+        <table width="100%" cellpadding="0" cellspacing="2" bgcolor="#C3C3C3">
+          <tr> 
+            <td colspan="2" bgcolor="#666666"><table width="100%" cellpadding="0" cellspacing="0">
+                <tr> 
+                  <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">&gt;</font></td>
+                  <td> <div align="left"><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">Javen
+                       </font> </div></td>
+                  <td align="right"> <div align="right"></div>
+                    <table cellspacing="0" cellpadding="0">
+                      <tr> 
+                        <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">[ 
+                          <a href="https://web.archive.org/web/20030721205010/mailto:javensoong@hotmail.com">Mail</a>
+                          ]</font></td>
+                        <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">[ 
+                          <a href="https://web.archive.org/web/20030721205010/http://www.javensoong.tk/" target="_blank">Web</a>
+                          ]</font></td>
+                      </tr>
+                    </table>
+                    <div align="right"></div></td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr align="center" valign="top"> 
+            <td colspan="2"> <table width="90%" cellpadding="5" cellspacing="0">
+                <tr> 
+                  <td align="left" valign="top"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">very neat site. i love ryoko too. ;) u can find plenty of her wallpapers too at my site.
+                    </font></td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr> 
+            <td nowrap> 
+              <div align="left"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">07/16
+                
+                </font> </div>
+            </td>
+            <td><div align="right"></div></td>
+          </tr>
+        </table>
+
+      </td>
+    </tr>
+  </table>
+  <br>
+  
+  <table width="150" border="0" align="center" cellpadding="0" cellspacing="0" style="filter:Alpha(opacity=83)">
+    <tr> 
+      <td> 
+        <table width="100%" cellpadding="0" cellspacing="2" bgcolor="#AAAAAA">
+          <tr> 
+            <td colspan="2" bgcolor="#666666"><table width="100%" cellpadding="0" cellspacing="0">
+                <tr> 
+                  <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">&gt;</font></td>
+                  <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">ariel106</font><font color="#134857" size="-2" face="Arial, Helvetica, sans-serif">&nbsp;
+                    </font> </td>
+                  <td align="right"><table cellspacing="0" cellpadding="0">
+                      <tr> 
+                        <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">[ 
+                          <a href="https://web.archive.org/web/20030721205010/mailto:ariel82501016@yahoo.com">Mail</a>
+                          ]</font></td>
+                        <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">[ 
+                          <a href="https://web.archive.org/web/20030721205010/http://www.ariel106.cjb.net/" target="_blank">Web</a>
+                          ]<img src="/web/20030721205010im_/http://server2046.virtualave.net:80/jay0917/rh/imgbbs/tdot.gif" width="4" height="4"></font></td>
+                      </tr>
+                    </table></td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr align="center" valign="top"> 
+            <td colspan="2"> <table width="90%" cellpadding="5" cellspacing="0">
+                <tr> 
+                  <td width="113" height="29" align="left" valign="top"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">cool... i like this, simple and clean... somehow, i envy you... :)
+                    </font></td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr> 
+            <td width="68" nowrap> 
+              <div align="left"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">07/05
+                
+                </font> </div>
+            </td>
+            <td>
+              <div align="right"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">[<a href="apeboard_plus.cgi?command=viewres&amp;target=68">RES</a>]&nbsp;</font></div>
+            </td>
+          </tr>
+        </table>
+        
+        <table width="100%" cellpadding="0" cellspacing="2" bgcolor="#C3C3C3">
+          <tr> 
+            <td colspan="2" bgcolor="#666666"><table width="100%" cellpadding="0" cellspacing="0">
+                <tr> 
+                  <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">&gt;</font></td>
+                  <td> <div align="left"><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">Angel
+                       </font> </div></td>
+                  <td align="right"> <div align="right"></div>
+                    <table cellspacing="0" cellpadding="0">
+                      <tr> 
+                        <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">[ 
+                          <a href="https://web.archive.org/web/20030721205010/mailto:angel@fxhk.com">Mail</a>
+                          ]</font></td>
+                        <td><font color="#FFFFFF" size="-2" face="Arial, Helvetica, sans-serif">[ 
+                          <a href="https://web.archive.org/web/20030721205010/http://anymo.com/rh" target="_blank">Web</a>
+                          ]</font></td>
+                      </tr>
+                    </table>
+                    <div align="right"></div></td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr align="center" valign="top"> 
+            <td colspan="2"> <table width="90%" cellpadding="5" cellspacing="0">
+                <tr> 
+                  <td align="left" valign="top"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">Thanks~ (^-^)<br>Your homepage is great too~ Lovely bearbear~ (^●^)
+                    </font></td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr> 
+            <td nowrap> 
+              <div align="left"><font color="#333333" size="-2" face="Arial, Helvetica, sans-serif">07/07
+                
+                </font> </div>
+            </td>
+            <td><div align="right"></div></td>
+          </tr>
+        </table>
+
+      </td>
+    </tr>
+  </table>
+  <br>
+  
+</form>
+<table width="145" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><div align="center"><a href="apeboard_plus.cgi"><font color="#666666" size="-3" face="Arial, Helvetica, sans-serif">BACK 
+        </font></a><img src="/web/20030721205010im_/http://server2046.virtualave.net:80/jay0917/rh/imgbbs/tdot.gif" width="6" height="3"> <a href="apeboard_plus.cgi?command=read_message&amp;msgnum=10"><font color="#666666" size="-3" face="Arial, Helvetica, sans-serif">NEXT</font></a></div></td>
+  </tr>
+</table>
+
+
+<div align="center"></div>
+</body>
+</html>
+<!-- ads begin -->
+</noscript>
+<!-- -->
+</noscript>
+<iframe src="https://web.archive.org/web/20030721205010if_/http://info.accumail.com/fcadincl?shape=exitpopup&amp;site=VA&amp;area=DIR.ART&amp;border=0&amp;keyword=exitpopup" width="0" height="0" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" bordercolor="#000000"><script language="JavaScript1.1" src="https://web.archive.org/web/20030721205010js_/http://info.accumail.com/fcjserver?shape=exitpopup&amp;site=VA&amp;area=DIR.ART&amp;border=0&amp;keyword=exitpopup"></script></iframe>
+<script language="JavaScript">
+
+<!--
+browser = (((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) >= 2 )) || ((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 2 )));
+browser4 = (((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) >= 4 )) || ((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 4 )));
+if (browser4) {
+    if (!self.url) {
+       self.url = '';
+    }
+    if (parent.name != 'test') {
+       test = window.open("https://web.archive.org/web/20030721205010/http://info.accumail.com/fcpopup?site=VA&shape=popup&border=1&area=DIR.ART", "test", "resizable=yes,width=528,height=200,scrollbars");
+    }
+} else if (browser) {
+    if (!self.url) {
+       self.url = '';
+    }
+    if (parent.name != 'test') {
+       test = window.open("https://web.archive.org/web/20030721205010/http://info.accumail.com/fcpopup?site=VA&shape=banner&border=1&area=DIR.ART", "test", "resizable=yes,width=528,height=200,scrollbars");
+    }
+}
+
+//-->
+
+</script>
+<!-- ads end -->
+<!-- ads begin -->
+</noscript>
+<!-- -->
+</noscript>
+<iframe src="https://web.archive.org/web/20030721205010if_/http://info.accumail.com/fcadincl?shape=exitpopup&amp;site=VA&amp;area=DIR.ART&amp;border=0&amp;keyword=exitpopup" width="0" height="0" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" bordercolor="#000000"><script language="JavaScript1.1" src="https://web.archive.org/web/20030721205010js_/http://info.accumail.com/fcjserver?shape=exitpopup&amp;site=VA&amp;area=DIR.ART&amp;border=0&amp;keyword=exitpopup"></script></iframe>
+<script language="JavaScript">
+
+<!--
+browser = (((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) >= 2 )) || ((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 2 )));
+browser4 = (((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) >= 4 )) || ((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 4 )));
+if (browser4) {
+    if (!self.url) {
+       self.url = '';
+    }
+    if (parent.name != 'test') {
+       test = window.open("https://web.archive.org/web/20030721205010/http://info.accumail.com/fcpopup?site=VA&shape=popup&border=1&area=DIR.ART", "test", "resizable=yes,width=528,height=200,scrollbars");
+    }
+} else if (browser) {
+    if (!self.url) {
+       self.url = '';
+    }
+    if (parent.name != 'test') {
+       test = window.open("https://web.archive.org/web/20030721205010/http://info.accumail.com/fcpopup?site=VA&shape=banner&border=1&area=DIR.ART", "test", "resizable=yes,width=528,height=200,scrollbars");
+    }
+}
+
+//-->
+
+</script>
+<!-- ads end -->
+<!--
+     FILE ARCHIVED ON 20:50:10 Jul 21, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:20:18 May 31, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  LoadShardBlock: 747.399 (3)
+  esindex: 0.009
+  captures_list: 767.298
+  CDXLines.iter: 14.163 (3)
+  PetaboxLoader3.datanode: 620.28 (4)
+  exclusion.robots: 0.306
+  exclusion.robots.policy: 0.293
+  RedisCDXSource: 1.986
+  PetaboxLoader3.resolve: 869.194 (2)
+  load_resource: 838.983
+-->
